@@ -1,0 +1,196 @@
+/* Reset Begins */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Reset Ends */
+
+/* Fonts Begin */
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-MediumItalic.eot');
+	src: url('fonts/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Raleway-MediumItalic.woff2') format('woff2'),
+		url('fonts/Raleway-MediumItalic.ttf') format('truetype'),
+		url('fonts/Raleway-MediumItalic.svg#Raleway-MediumItalic') format('svg');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-Medium.eot');
+	src: url('fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Raleway-Medium.woff2') format('woff2'),
+		url('fonts/Raleway-Medium.ttf') format('truetype'),
+		url('fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-Light.eot');
+	src: url('fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Raleway-Light.woff2') format('woff2'),
+		url('fonts/Raleway-Light.ttf') format('truetype'),
+		url('fonts/Raleway-Light.svg#Raleway-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-LightItalic.eot');
+	src: url('fonts/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Raleway-LightItalic.woff2') format('woff2'),
+		url('fonts/Raleway-LightItalic.ttf') format('truetype'),
+		url('fonts/Raleway-LightItalic.svg#Raleway-LightItalic') format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('fonts/PlayfairDisplay-BoldItalic.eot');
+	src: url('fonts/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+		url('fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
+		url('fonts/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('fonts/PlayfairDisplay-Bold.eot');
+	src: url('fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+		url('fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
+		url('fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('fonts/PlayfairDisplay-Regular.eot');
+	src: url('fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+		url('fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
+		url('fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('fonts/PlayfairDisplay-Italic.eot');
+	src: url('fonts/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+		url('fonts/PlayfairDisplay-Italic.ttf') format('truetype'),
+		url('fonts/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* Fonts End */
+
+.hero {
+  padding: 370px 0px 370px 0px;
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.3),
+      rgba(0,0,0,0.3)),
+    url(images/banner-girl.png) center no-repeat,
+		url(images/flower-bkgd.jpg) center;
+  font-size: 50px;
+}
+
+.collection {
+  font-size: 20px;
+  font-family: raleway;
+  text-align: center;
+  margin: 1px auto;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  
+}
+
+.season {
+  font-size: 80px;
+  font-family: Playfair Display;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  color: white
+}
+
+.menu {
+  color:#e2574c;
+  font-family: raleway;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 500px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+}
+
+header img {
+  height: 100px;
+  width: auto;
+
+}
