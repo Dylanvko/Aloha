@@ -138,33 +138,33 @@ table {
 /* Fonts End */
 
 .hero {
-  padding: 370px 0px 370px 0px;
+  padding: 20rem 0rem 20rem 0rem;
   background:
     linear-gradient(
       rgba(0,0,0,0.3),
       rgba(0,0,0,0.3)),
     url(images/banner-girl.png) center no-repeat,
 		url(images/flower-bkgd.jpg) center;
-  font-size: 50px;
+  font-size: 2.78rem;
 }
 
 .collection {
-  font-size: 20px;
+  font-size: 1.1rem;
   font-family: raleway;
   text-align: center;
   margin: 1px auto;
-  padding: 10px;
+  padding: 0.55rem;
   color: white;
   text-transform: uppercase;
   
 }
 
 .season {
-  font-size: 80px;
+  font-size: 4.44rem;
   font-family: Playfair Display;
   text-align: center;
   margin: 0 auto;
-  padding: 10px;
+  padding: 0.55rem;
   color: white
 }
 
@@ -172,12 +172,12 @@ table {
   color:#e2574c;
   font-family: raleway;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 1.1rem;
   text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 500px;
+	width: 28rem;
 }
 
 header {
@@ -186,24 +186,31 @@ header {
   justify-content: space-around;
   text-align: center;
   align-items: center;
-  margin: 20px;
+	border: 1.1rem;
+	padding: 0.5rem;
+	background: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
 }
 
 header img {
-  height: 80px;
+  height: 4.4rem;
   width: auto;
 
 }
 
 .styles {
-	font-size: 40px;
+	font-size: 2.2rem;
 	display: inline-block;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	font-weight: lighter;
-	margin: 10px;
-	padding: 40px 0px 20px 0px;
+	margin: 0.55rem;
+	padding: 2.2rem 0rem 1.1rem 0rem;
 	font-family: Playfair Display;
 }
 
@@ -224,5 +231,55 @@ h2 {
 	font-weight: lighter;
 	justify-content: center;
 	text-align: center;
+	line-height: 2rem;
+	font-size: 1.1rem;
 
 }
+
+.categories {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+	margin: 0.2rem;
+	
+}
+
+.categories img {
+	height: 22rem;
+	width: auto;
+	margin: 0.2rem;
+}
+
+.mens
+
+/* .hero {
+  padding: 20rem 0rem 20rem 0rem;
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.3),
+      rgba(0,0,0,0.3)),
+    url(images/banner-girl.png) center no-repeat,
+		url(images/flower-bkgd.jpg) center;
+  font-size: 2.78rem;
+}
+ */
+
+
+
+
+/* Breakpoints */
+
+/* @media all and (min-width: 600px) {
+	
+		 .actions li {
+				display: inline-block;
+		 }
+	
+
+@media all and (min-width: 1240px) {
+		
+		.wrapper {
+				width: 720px;
+		}
+		 */
