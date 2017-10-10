@@ -145,6 +145,7 @@ table {
       rgba(0,0,0,0.3)),
     url(images/banner-girl.png) center no-repeat,
 		url(images/flower-bkgd.jpg) center;
+	background-size: contain;
   font-size: 2.78rem;
 }
 
@@ -236,36 +237,64 @@ h2 {
 
 }
 
-.categories {
-	display: flex;
+.container {
+	background-color: white;
+	position: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: baseline;
-	margin: 0.2rem;
+	flex-direction: row;
+	align-content: space-around;
 	
 }
 
-.categories img {
-	height: 22rem;
-	width: auto;
-	margin: 0.2rem;
+.category {
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-family: raleway;
+	color: white;
+	height: 300px;
+	width: 600px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+
 }
 
-.mens
+.category:nth-child(n) {
+	background:
+		url(images/mens-category.jpg);
+	background-size: contain;
 
-/* .hero {
-  padding: 20rem 0rem 20rem 0rem;
-  background:
-    linear-gradient(
-      rgba(0,0,0,0.3),
-      rgba(0,0,0,0.3)),
-    url(images/banner-girl.png) center no-repeat,
-		url(images/flower-bkgd.jpg) center;
-  font-size: 2.78rem;
 }
- */
 
+.category:nth-child(2n) {
+	background:
+		url(images/trends-category.jpg);
+	background-size: contain;
+}
 
+.category:nth-child(3n) {
+	background:
+		url(images/glasses-category.jpg);
+	background-size: contain;
+}
+
+.category:nth-child(4n) {
+	background:
+		url(images/sale-category.jpg);
+	background-size: contain;
+}
+
+.category:nth-child(5n) {
+	background:
+		url(images/bags-category.jpg);
+	background-size: contain;
+}
+
+.category:nth-child(6n) {
+	background:
+		url(images/womens-category.jpg);
+	background-size: contain;
+}
 
 
 /* Breakpoints */
