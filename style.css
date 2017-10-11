@@ -144,9 +144,10 @@ table {
       rgba(0,0,0,0.3),
       rgba(0,0,0,0.3)),
     url(images/banner-girl.png) center no-repeat,
-		url(images/flower-bkgd.jpg) center;
-	background-size: contain;
-  font-size: 2.78rem;
+		url(images/flower-bkgd.jpg) center no-repeat;
+	background-size: cover, contain;
+	font-size: 2.78rem;
+	width: 100%;
 }
 
 .collection {
@@ -245,9 +246,7 @@ h2 {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	align-content: space-around;
 	justify-content: center;
-
 	
 }
 
@@ -256,67 +255,65 @@ h2 {
 	font-size: 1.5rem;
 	font-family: raleway;
 	color: white;
-	height: 300px;
-	width: 600px;
+	height: 20rem;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
-	align-content: space-around;
+	align-content: space-around stretch;
 	margin: 4px;
 
 }
 
 .category:nth-child(n) {
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg);
-	background-size: contain;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg) center;
 	background-repeat: no-repeat;
-	width: 600px;
+	flex-basis: 50%;
+	background-size: contain;
 
 }
 
 .category:nth-child(2n) {
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg);
-	background-size: contain;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg) center;
 	background-repeat: no-repeat;
-	width: 300px;
-	
+	background-size: contain;
+	flex-basis: 25%;	
 }
 
 .category:nth-child(3n) {
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg) center;
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 300px;
+	flex-basis: 1;
 }
 
 .category:nth-child(4n) {
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg) center;
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 300px;
-
+	flex-basis: 1;
 }
 
 .category:nth-child(5n) {
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg) center;
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 300px;
+	flex-basis: 1;
 }
 
 .category:nth-child(6n) {
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg) center;
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 600px;
+	flex-basis: 2;
+
 }
 
 .updates {
 	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(images/waveback.jpg) left bottom;
 	background-repeat: no-repeat;
 	height: 351px;
-	width: 100%;
-	position: relative;
+	width: auto;
+	background-size: cover;
 
 }
 
