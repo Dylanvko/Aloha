@@ -156,17 +156,20 @@ table {
   margin: 1px auto;
   padding: 0.55rem;
   color: white;
-  text-transform: uppercase;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 6px grey;
   
 }
 
 .season {
   font-size: 4.44rem;
   font-family: Playfair Display;
-  text-align: center;
+	text-align: center;
+	text-shadow: 1px 1px 6px grey;
   margin: 0 auto;
   padding: 0.55rem;
-  color: white
+	color: white
+
 }
 
 .menu {
@@ -239,10 +242,12 @@ h2 {
 
 .container {
 	background-color: white;
-	position: flex;
+	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	align-content: space-around;
+	justify-content: center;
+
 	
 }
 
@@ -256,46 +261,89 @@ h2 {
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+	align-content: space-around;
+	margin: 4px;
 
 }
 
 .category:nth-child(n) {
-	background:
-		url(images/mens-category.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg);
 	background-size: contain;
+	background-repeat: no-repeat;
+	width: 600px;
 
 }
 
 .category:nth-child(2n) {
-	background:
-		url(images/trends-category.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg);
 	background-size: contain;
+	background-repeat: no-repeat;
+	width: 300px;
+	
 }
 
 .category:nth-child(3n) {
-	background:
-		url(images/glasses-category.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg);
 	background-size: contain;
+	background-repeat: no-repeat;
+	width: 300px;
 }
 
 .category:nth-child(4n) {
-	background:
-		url(images/sale-category.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg);
 	background-size: contain;
+	background-repeat: no-repeat;
+	width: 300px;
+
 }
 
 .category:nth-child(5n) {
-	background:
-		url(images/bags-category.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg);
 	background-size: contain;
+	background-repeat: no-repeat;
+	width: 300px;
 }
 
 .category:nth-child(6n) {
-	background:
-		url(images/womens-category.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg);
 	background-size: contain;
+	background-repeat: no-repeat;
+	width: 600px;
 }
 
+.updates {
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(images/waveback.jpg) left bottom;
+	background-repeat: no-repeat;
+	height: 351px;
+	width: 100%;
+	position: relative;
+
+}
+
+.updates h2 {
+	font-size: 2.2rem;
+	display: inline-block;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-weight: lighter;
+	margin: 0.55rem;
+	padding: 2.2rem 0rem 1.1rem 0rem;
+	font-family: Playfair Display;
+	color: white;
+	text-shadow: 1px 1px 6px grey;
+}
+
+.updates p {
+	font-family: raleway;
+	font-weight: lighter;
+	justify-content: center;
+	text-align: center;
+	line-height: 2rem;
+	font-size: 1.1rem;
+	color: white;
+	
+}
 
 /* Breakpoints */
 
