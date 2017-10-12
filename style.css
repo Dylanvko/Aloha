@@ -159,7 +159,7 @@ table {
   padding: 0.55rem;
   color: white;
 	text-transform: uppercase;
-	text-shadow: 1px 1px 6px grey;
+	text-shadow: 1px 1px 6px #242424;
   
 }
 
@@ -167,7 +167,7 @@ table {
   font-size: 4.44rem;
   font-family: Playfair Display;
 	text-align: center;
-	text-shadow: 1px 1px 6px grey;
+	text-shadow: 1px 1px 6px #242424;
   margin: 0 auto;
   padding: 0.55rem;
 	color: white
@@ -243,7 +243,8 @@ h2 {
 }
 
 .blurb p {
-	padding: 10px 0px 50px 0px
+	padding: 10px 0px 50px 0px;
+	font-weight: lighter
 }
 
 .container {
@@ -260,7 +261,9 @@ h2 {
 	font-size: 1.5rem;
 	font-family: raleway;
 	color: white;
+	text-shadow: 1px 1px 6px #242424;
 	text-align: center;
+	line-height: 230px;
 	justify-content: center;
 	align-content: stretch;
 	align-items: center;
@@ -319,7 +322,7 @@ h2 {
 .updates {
 	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(images/waveback.jpg) left bottom;
 	background-repeat: no-repeat;
-	height: 350px;
+	height: 300px;
 	width: auto;
 	background-size: cover;
 
@@ -333,7 +336,7 @@ h2 {
 	justify-content: center;
 	font-weight: lighter;
 	margin: 0.55rem;
-	padding: 2.2rem 0rem 1.1rem 0rem;
+	padding: 2.6rem 0rem 1.1rem 0rem;
 	font-family: Playfair Display;
 	color: white;
 	text-shadow: 1px 1px 6px grey;
@@ -347,30 +350,57 @@ h2 {
 	line-height: 2rem;
 	font-size: 1.1rem;
 	color: white;
+	text-shadow: 1px 1px 3px grey;
 	
 }
 
 footer {
 	background-color: #242424;
-	height: 300px;
+	height: 275px;
 	width: 100%;
 	margin: 4px 0px 0px 0px;
+	display: flex;
+	flex-direction: row;
 }
 
 .contact {
 	color: white;
 	font-family: Playfair Display;
+	padding: 3.5rem 0rem 0rem 0.3rem;
+	font-weight: lighter;
+	font-size: 0.8rem;
+}
+
+.box {
+	padding: 0rem 0rem 1.75rem 0rem;
+	line-height: 1.2rem;
+}
+
+.box2 {
+	padding: 0rem 0rem 1.75rem 0rem;
+}
+
+.contact p {
+	line-height: 1.2rem;
+	color: grey;
+	font-weight: lighter;
+}
+
+.contact a {
+	color: white;
 }
 
 .socialmedia {
 	color: white;
 	font-family: Raleway;
+	font-weight: lighter;
+	padding: 3.5rem 0.3rem 0.6rem 30rem;
+	font-size: 0.9rem;
+	justify-content: space-between;
+	line-height: 2rem;
 
 }
 
-.box2 href {
-	color: white;
-}
 
 /* Breakpoints */
 
