@@ -141,11 +141,12 @@ table {
   padding: 20rem 0rem 20rem 0rem;
   background:
     linear-gradient(
-      rgba(0,0,0,0.3),
-      rgba(0,0,0,0.3)),
-    url(images/banner-girl.png) center no-repeat,
+      rgba(0,0,0,0.25),
+      rgba(0,0,0,0.25)),
+    url(images/banner-girl.png) center bottom no-repeat,
 		url(images/flower-bkgd.jpg) center no-repeat;
 	background-size: cover, contain;
+	background-position: center, center 150px;
 	font-size: 2.78rem;
 	width: 100%;
 }
