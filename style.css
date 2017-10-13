@@ -138,16 +138,17 @@ table {
 /* Fonts End */
 
 .hero {
-  padding: 20rem 0rem 20rem 0rem;
+  padding: 13rem 0rem 13rem 0rem;
   background:
     linear-gradient(
       rgba(0,0,0,0.25),
       rgba(0,0,0,0.25)),
     url(images/banner-girl.png) center bottom no-repeat,
-		url(images/flower-bkgd.jpg) center no-repeat;
+		url(images/flower-bkgd.jpg) center;
 	background-size: cover, contain;
-	background-position: center, center 150px;
+	background-position: center, center 8.9rem;
 	font-size: 2.78rem;
+	height: 10rem;
 	width: 100%;
 }
 
@@ -156,10 +157,10 @@ table {
   font-family: raleway;
   text-align: center;
   margin: 1px auto;
-  padding: 0.55rem;
+  padding: 5rem 0rem 0rem;
   color: white;
 	text-transform: uppercase;
-	text-shadow: 1px 1px 6px #242424;
+	text-shadow: 2px 2px 2px #242424;
   
 }
 
@@ -167,7 +168,7 @@ table {
   font-size: 4.44rem;
   font-family: Playfair Display;
 	text-align: center;
-	text-shadow: 1px 1px 6px #242424;
+	text-shadow: 2px 2px 2px #242424;
   margin: 0 auto;
   padding: 0.55rem;
 	color: white
@@ -178,7 +179,7 @@ table {
   color:#e2574c;
   font-family: raleway;
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -189,7 +190,7 @@ table {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   align-items: center;
 	border: 1.1rem;
@@ -204,7 +205,9 @@ header {
 
 header img {
   height: 4.4rem;
-  width: auto;
+	width: auto;
+	margin: 0.3rem;
+	padding: 0rem 1rem 0rem 0rem;
 
 }
 
@@ -372,12 +375,13 @@ footer {
 	margin: 4px 0px 0px 0px;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
 
 .contact {
 	color: white;
 	font-family: Playfair Display;
-	padding: 3.5rem 0rem 0rem 0.3rem;
+	padding: 3.5rem 0rem 0rem 1rem;
 	font-weight: lighter;
 	font-size: 0.8rem;
 }
@@ -405,11 +409,10 @@ footer {
 	color: white;
 	font-family: Raleway;
 	font-weight: lighter;
-	padding: 3.5rem 0.3rem 0.6rem 30rem;
+	padding: 3.5rem 2rem 0.6rem 3.5rem;
 	font-size: 0.9rem;
 	justify-content: space-between;
 	line-height: 2rem;
-
 }
 
 
