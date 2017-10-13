@@ -387,6 +387,26 @@ footer {
 	font-size: 0.8rem;
 }
 
+#submit {
+	background-color: #d26053;
+	color: white;
+	border-radius: 3rem;
+	line-height: 1.6rem;
+	font-size: 0.8rem;
+	font-family: Raleway;
+	padding: 0rem 0.8rem 0rem 0.8rem;
+}
+
+#email {
+	font-family: Raleway;
+	line-height: 1.8rem;
+	padding: 0rem 11rem 0rem 0.5rem;
+	font-size: 0.7rem;
+	font-weight: lighter;
+	color: grey;
+	border-radius: 3rem;
+}
+
 .box {
 	padding: 0rem 0rem 1.75rem 0rem;
 	line-height: 1.2rem;
