@@ -185,6 +185,7 @@ table {
   flex-direction: row;
   justify-content: space-around;
 	width: 28rem;
+	margin: 0rem 0rem 0rem -2.5rem;
 }
 
 header {
@@ -205,7 +206,7 @@ header {
 }
 
 header img {
-  height: 4.4rem;
+  height: 4rem;
 	width: auto;
 	margin: 0.3rem;
 	padding: 0rem 1rem 0rem 0rem;
@@ -331,8 +332,44 @@ h2 {
 	background-repeat: no-repeat;
 	grid-column: 3/5;
 	grid-row: 2;
+}
+ 
+.main-carousel {
+ justify-content: center;
+ align-items: center;
+ line-height: 1.2rem;
+}
+
+.main-carousel img {
+	justify-content: center;
+	
+}
+
+.main-carousel p {
+	font-family: Raleway;
+	text-transform: uppercase;
+	color: #969696;
+	padding: 1rem;
+}
+
+.garment {
+	font-size: 0.8rem;
+	justify-content: center;
+	padding: 1rem;
 
 }
+
+.main-carousel h3 {
+	font-family: Playfair Display;
+	color:#e2574c;
+	}
+
+.carousel-cell {
+	justify-content: center;
+	text-align: center;
+	
+
+	}
 
 .updates {
 	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(images/waveback.jpg) left bottom;
@@ -340,7 +377,10 @@ h2 {
 	height: 300px;
 	width: auto;
 	background-size: cover;
-
+	margin: 3rem 0rem 0rem 0rem;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
 }
 
 .updates h2 {
@@ -366,7 +406,6 @@ h2 {
 	font-size: 1.1rem;
 	color: white;
 	text-shadow: 1px 1px 3px grey;
-	
 }
 
 footer {
@@ -395,16 +434,19 @@ footer {
 	font-size: 0.8rem;
 	font-family: Raleway;
 	padding: 0rem 0.8rem 0rem 0.8rem;
+	margin: 0rem 0rem -0.6rem -5.9rem;
+	font-weight: lighter;
 }
 
 #email {
 	font-family: Raleway;
-	line-height: 1.8rem;
+	line-height: 1.9rem;
 	padding: 0rem 11rem 0rem 0.5rem;
 	font-size: 0.7rem;
 	font-weight: lighter;
 	color: grey;
 	border-radius: 3rem;
+	
 }
 
 .box {
@@ -430,7 +472,7 @@ footer {
 	color: white;
 	font-family: Raleway;
 	font-weight: lighter;
-	padding: 3.5rem 2rem 0.6rem 3.5rem;
+	padding: 3.5rem 2rem 0.6rem 0.5rem;
 	font-size: 0.9rem;
 	justify-content: space-between;
 	line-height: 2rem;
