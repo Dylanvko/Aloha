@@ -137,6 +137,10 @@ table {
 
 /* Fonts End */
 
+body {
+	color: #2d2d2d;
+}
+
 .hero {
   padding: 13rem 0rem 13rem 0rem;
   background:
@@ -185,7 +189,11 @@ table {
   flex-direction: row;
   justify-content: space-around;
 	width: 28rem;
-	margin: 0rem 0rem 0rem -2.5rem;
+	font-weight: bold;
+}
+
+.menu a:hover {
+	color: #b64036;
 }
 
 header {
@@ -202,12 +210,11 @@ header {
 	left: 0;
 	width: 100%;
 	z-index: 10;
-
 }
 
 header img {
   height: 4rem;
-	width: auto;
+	width: 8rem;
 	margin: 0.3rem;
 	padding: 0rem 1rem 0rem 0rem;
 
@@ -243,7 +250,7 @@ h2 {
 	justify-content: center;
 	text-align: center;
 	line-height: 2rem;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	align-content: center;
 
 }
@@ -255,6 +262,9 @@ h2 {
 	max-width: 50%;
 	justify-content: center;
 	text-align: center;
+	max-width: 40%;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
@@ -277,7 +287,7 @@ h2 {
 }
 
 .container a:hover {
-  color: rgb(214, 191, 117);
+  color: #f4ebca;
 }
 
 .category {
@@ -362,18 +372,22 @@ h2 {
 	font-size: 0.8rem;
 	justify-content: center;
 	padding: 1rem;
-
 }
 
 .main-carousel h3 {
 	font-family: Playfair Display;
 	color:#e2574c;
+	font-size: 1.3rem;
 	}
 
 .carousel-cell {
 	justify-content: center;
 	text-align: center;
 	}
+
+.carousel-cell p {
+	font-size: 0.7rem;
+}
 
 .updates {
 	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(images/waveback.jpg) left bottom;
@@ -382,9 +396,6 @@ h2 {
 	width: auto;
 	background-size: cover;
 	margin: 3rem 0rem 0rem 0rem;
-	display: flex;
-	flex-direction: column;
-	align-content: center;
 }
 
 .updates h2 {
@@ -410,7 +421,9 @@ h2 {
 	font-size: 1.1rem;
 	color: white;
 	text-shadow: 1px 1px 3px grey;
-	max-width: 50%;
+	max-width: 40%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 footer {
@@ -435,23 +448,26 @@ footer {
 	background-color: #d26053;
 	color: white;
 	border-radius: 3rem;
-	line-height: 1.6rem;
+	line-height: 1.65rem;
 	font-size: 0.8rem;
 	font-family: Raleway;
 	padding: 0rem 0.8rem 0rem 0.8rem;
-	margin: 0rem 0rem -0.6rem -5.9rem;
+	margin: 0rem 0rem -0.5rem -5.7rem;
 	font-weight: lighter;
+	border: 0px;
+	
 }
 
 #email {
 	font-family: Raleway;
-	line-height: 1.9rem;
+	line-height: 2rem;
 	padding: 0rem 11rem 0rem 0.5rem;
 	font-size: 0.7rem;
 	font-weight: lighter;
-	color: grey;
+	color: #969696;
 	border-radius: 3rem;
 	justify-content: center;
+	border: 0px;
 }
 
 .box {
@@ -465,7 +481,7 @@ footer {
 
 .contact p {
 	line-height: 1.2rem;
-	color: grey;
+	color: #969696;
 	font-weight: lighter;
 }
 
@@ -492,18 +508,25 @@ footer {
 	padding: 0rem 0rem 0rem 0.5rem;
 }
 
+.subscribe {
+	max-width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1rem 0rem 0rem 0rem;
+}
 
 .add-to-cart {
 	border-radius: 16px;
-	background-color: #000;
+	background-color: #242424;
 	color: #fff;
-	font-size: 0.9rem;
+	font-size: 0.7rem;
 	font-family: Raleway;
-	font-weight: lighter;
+	font-weight: lightest;
 	line-height: 1;
 	padding: 0.3rem 0.8rem;
 	font-weight: bold;
 	margin: 0.2rem 0rem 1rem 0rem;
+	border: 0px;
 }
 
 /* Breakpoints */

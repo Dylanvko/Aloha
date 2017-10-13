@@ -1,5 +1,6 @@
 $('.main-carousel').flickity({
   // options
+  wrapAround: true,
   cellAlign: 'left',
   contain: true
 });
