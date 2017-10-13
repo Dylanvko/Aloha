@@ -244,12 +244,18 @@ h2 {
 	text-align: center;
 	line-height: 2rem;
 	font-size: 1.1rem;
+	align-content: center;
 
 }
 
 .blurb p {
 	padding: 10px 0px 50px 0px;
-	font-weight: lighter
+	align-content: center;
+	font-weight: lighter;
+	max-width: 50%;
+	justify-content: center;
+	text-align: center;
+
 }
 
 .container {
@@ -349,7 +355,7 @@ h2 {
 	font-family: Raleway;
 	text-transform: uppercase;
 	color: #969696;
-	padding: 1rem;
+	padding: 1rem 0rem 0.5rem 0rem;
 }
 
 .garment {
@@ -367,8 +373,6 @@ h2 {
 .carousel-cell {
 	justify-content: center;
 	text-align: center;
-	
-
 	}
 
 .updates {
@@ -406,6 +410,7 @@ h2 {
 	font-size: 1.1rem;
 	color: white;
 	text-shadow: 1px 1px 3px grey;
+	max-width: 50%;
 }
 
 footer {
@@ -446,7 +451,7 @@ footer {
 	font-weight: lighter;
 	color: grey;
 	border-radius: 3rem;
-	
+	justify-content: center;
 }
 
 .box {
@@ -478,6 +483,28 @@ footer {
 	line-height: 2rem;
 }
 
+.socialmedia a {
+	text-decoration: none;
+	color: white;
+}
+
+.socialmedia span {
+	padding: 0rem 0rem 0rem 0.5rem;
+}
+
+
+.add-to-cart {
+	border-radius: 16px;
+	background-color: #000;
+	color: #fff;
+	font-size: 0.9rem;
+	font-family: Raleway;
+	font-weight: lighter;
+	line-height: 1;
+	padding: 0.3rem 0.8rem;
+	font-weight: bold;
+	margin: 0.2rem 0rem 1rem 0rem;
+}
 
 /* Breakpoints */
 
