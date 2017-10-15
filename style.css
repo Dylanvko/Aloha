@@ -486,6 +486,8 @@ footer {
 
 .socialmedia {
 	color: white;
+	display: flex;
+	flex-direction: row;
 	font-family: Raleway;
 	font-weight: lighter;
 	padding: 0.55rem 0rem 0.6rem 0.5rem;
@@ -498,10 +500,12 @@ footer {
 .socialmedia a {
 	text-decoration: none;
 	color: white;
+	padding: 0rem 0.5rem 0rem 0.5rem;
 }
 
 .socialmedia span {
 	padding: 0rem 0rem 0rem 0.5rem;
+	display: none;
 }
 
 /* Email subscription container */
@@ -609,12 +613,13 @@ footer {
 	font-size: 0.9rem;
 	line-height: 2rem;
 	text-align: left;
+	display: inline-block;
 }
 
 .socialmedia span {
 	padding: 0rem 0rem 0rem 0.5rem;
-	display: contents;
-	min-width: 600px;
+	display: inline-block;
+
 }
 
 /* @media all and (min-width: 1240px) {
