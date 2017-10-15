@@ -185,22 +185,27 @@ body {
 }
 
 .menu {
-  color:#e2574c;
   font-family: raleway;
   text-transform: uppercase;
-  font-size: 0.9rem;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-	width: 28rem;
+	font-size: 0.9rem;
 	font-weight: bold;
-	text-decoration: none;
+}
+
+.menu-box {
+	display: flex;
+	justify-content: center;
+	order: 3;
+	width: 90%;
+	padding-left:1rem;
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+	border-top: #D7d7d7 solid 1px;
 }
 
 .menu a {
 	color: #e2574c;
 	text-decoration: none;
+	padding: 0rem 0.5rem;
 }
 
 .menu a:hover {
@@ -209,9 +214,10 @@ body {
 
 header {
   display: flex;
-  flex-direction: row;
+	flex-direction: row;
+	flex-wrap: wrap;
   justify-content: space-between;
-  text-align: center;
+	text-align: center;
   align-items: center;
 	border: 1.1rem;
 	padding: 0.5rem;
@@ -221,14 +227,39 @@ header {
 	left: 0;
 	width: 100%;
 	z-index: 10;
+	border-bottom-color: #969696;
+	border-bottom-width: 3px;
+}
+
+.header-wrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
 }
 
 header img {
-  height: 4rem;
-	width: 8rem;
+  height: 3.25rem;
 	margin: 0.3rem;
-	padding: 0rem 1rem 0rem 0rem;
+	padding: 0rem 0.5rem 0.3rem 0rem;
+	display: flex;
+}
 
+.cart-image {
+	align-self: flex-end;
+	text-align: right;
+	display: flex;
+	flex-direction: row-reverse;
+	order: 2;
+	width: 50%;
+}
+
+.aloha-image {
+	display: flex;
+	order: 1;
+	width: 50%;
 }
 
 .styles {
@@ -567,6 +598,56 @@ footer {
 
 @media all and (min-width: 600px) {
 
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	border: 1.1rem;
+	padding: 0.5rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	flex-wrap: nowrap;
+	}
+
+.header-wrap {
+	flex-wrap: nowrap;
+}
+
+.menu {
+	font-size: 0.9rem;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 22rem;
+	font-weight: bold;
+	text-decoration: none;
+	order: 0;
+}
+
+.cart-image {
+	padding: 0rem 0rem 0rem 0.3rem;
+	align-self: flex-end;
+	text-align: right;
+	width: 15%;
+}
+
+.aloha-image {
+	width: 15%;
+}
+
+.menu-box {
+	display: flex;
+	justify-content: center;
+	order: 2;
+	border-top: none;
+}
+
 .container {
 	grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
   grid-auto-rows: minmax(20vw, auto);
@@ -598,7 +679,6 @@ footer {
 	margin: 4px 0px 0px 0px;
 	display: flex;
 	flex-direction: row;
-
 }	
 
 .contact {
