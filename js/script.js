@@ -7,14 +7,17 @@ $('#emailfill').on('submit', function(event) {
     }
 });
 
-$('#target').click(function() {
-  $('#output').html(function(i, val) { return val*1+1 });
-});
+var button = 
+document.getElementById('output'),
+  count = 0;
+button.onclick = function() {
+  count += 1;
+  button.innerHTML = "output: " + count;
+};
 
-// $('#button1').click( function() {
-//   var counter = $('#TextBox').val();
-//   counter++ ;
-//   $('#TextBox').val(counter);
+// $('#target').click(function() {
+//   counter++;
+//   $('#counter').html(counter);
 // });
 
 $('.main-carousel').flickity({

@@ -149,6 +149,26 @@ body {
 .hero {
   padding: 13rem 0rem 13rem 0rem;
   background:
+    -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgba(0,0,0,0.25)),
+      to(rgba(0,0,0,0.25))),
+    url(images/banner-girl.png) center bottom no-repeat,
+		url(images/flower-bkgd.jpg) center;
+  background:
+    -webkit-linear-gradient(
+      rgba(0,0,0,0.25),
+      rgba(0,0,0,0.25)),
+    url(images/banner-girl.png) center bottom no-repeat,
+		url(images/flower-bkgd.jpg) center;
+  background:
+    -o-linear-gradient(
+      rgba(0,0,0,0.25),
+      rgba(0,0,0,0.25)),
+    url(images/banner-girl.png) center bottom no-repeat,
+		url(images/flower-bkgd.jpg) center;
+  background:
     linear-gradient(
       rgba(0,0,0,0.25),
       rgba(0,0,0,0.25)),
@@ -192,9 +212,15 @@ body {
 }
 
 .menu-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	order: 3;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-ordinal-group: 4;
+	    -ms-flex-order: 3;
+	        order: 3;
 	width: 90%;
 	padding-left:1rem;
 	padding-top: 1rem;
@@ -213,12 +239,22 @@ body {
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-  justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 	text-align: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 	border: 1.1rem;
 	padding: 0.5rem;
 	background: white;
@@ -232,44 +268,73 @@ header {
 }
 
 .header-wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	width: 100%;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 header img {
   height: 3.25rem;
 	margin: 0.3rem;
 	padding: 0rem 0.5rem 0.3rem 0rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
 .cart-image {
-	align-self: flex-end;
+	-ms-flex-item-align: end;
+	    align-self: flex-end;
 	text-align: right;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row-reverse;
-	order: 2;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+	-webkit-box-ordinal-group: 3;
+	    -ms-flex-order: 2;
+	        order: 2;
 	width: 50%;
 }
 
 .aloha-image {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	order: 1;
+	-webkit-box-ordinal-group: 2;
+	    -ms-flex-order: 1;
+	        order: 1;
 	width: 50%;
 }
 
 .counter {
 	width: 0.5rem;
 	height: 1rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-self: flex-end;
+	-ms-flex-item-align: end;
+	    align-self: flex-end;
 	position: absolute;
 	top:17%;
-	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	    -ms-transform:translateY(-50%);
+	        transform:translateY(-50%);
 	right:0;
 	padding-right: 0.3rem;
 	padding-left: 0.3rem;
@@ -279,7 +344,9 @@ header img {
 	text-align: center;
 	border-radius: 3rem;
 	color: white;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	font-size: 0.6rem;
 	
 }
@@ -287,9 +354,16 @@ header img {
 .styles {
 	font-size: 1.95rem;
 	display: inline-block;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	font-weight: lighter;
 	margin: 0.55rem;
 	padding: 2.2rem 0rem 1.1rem 0rem;
@@ -315,20 +389,26 @@ h2 {
 .blurb {
 	font-family: raleway;
 	font-weight: lighter;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	text-align: center;
 	line-height: 2rem;
 	font-size: 1rem;
-	align-content: center;
+	-ms-flex-line-pack: center;
+	    align-content: center;
 
 }
 
 .blurb p {
 	padding: 10px 0px 50px 0px;
-	align-content: center;
+	-ms-flex-line-pack: center;
+	    align-content: center;
 	font-weight: lighter;
 	max-width: 50%;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	text-align: center;
 	max-width: 40rem;
 	margin-left: auto;
@@ -364,19 +444,27 @@ h2 {
 	color: white;
 	text-shadow: 1px 1px 6px #242424;
 	text-align: center;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	/* align-content: stretch; */
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	grid-column-end: span 2;
 }
 
 .category-wide {
 	grid-column-end: span 4;
 	width: 100%;
-	flex-basis: 100%;
+	-ms-flex-preferred-size: 100%;
+	    flex-basis: 100%;
 }
 
 .category:nth-child(n) {
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/mens-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg) center;
 	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg) center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -385,6 +473,9 @@ h2 {
 }
 
 .category:nth-child(2n) {
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/trends-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg) center;
 	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg) center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -393,6 +484,9 @@ h2 {
 }
 
 .category:nth-child(3n) {
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/glasses-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg) center;
 	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg) center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -401,6 +495,9 @@ h2 {
 }
 
 .category:nth-child(4n) {
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/sale-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg) center;
 	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg) center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -409,6 +506,9 @@ h2 {
 }
 
 .category:nth-child(5n) {
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/bags-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg) center;
 	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg) center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -417,6 +517,9 @@ h2 {
 }
 
 .category:nth-child(6n) {
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/womens-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg) center;
 	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg) center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -425,13 +528,19 @@ h2 {
 }
  
 .main-carousel {
- justify-content: center;
- align-items: center;
+ -webkit-box-pack: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+ -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
  line-height: 1.2rem;
 }
 
 .main-carousel img {
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	
 }
 
@@ -444,7 +553,9 @@ h2 {
 
 .garment {
 	font-size: 0.8rem;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	padding: 1rem;
 }
 
@@ -455,7 +566,9 @@ h2 {
 	}
 
 .carousel-cell {
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	text-align: center;
 	padding: 0.5rem;
 	width: 100%;
@@ -466,6 +579,9 @@ h2 {
 }
 
 .updates {
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.3)) ), url(images/waveback.jpg) left bottom;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(images/waveback.jpg) left bottom;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(images/waveback.jpg) left bottom;
 	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(images/waveback.jpg) left bottom;
 	background-repeat: no-repeat;
 	height: 300px;
@@ -477,9 +593,16 @@ h2 {
 .updates h2 {
 	font-size: 2rem;
 	display: inline-block;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	font-weight: lighter;
 	margin: 0.55rem;
 	padding: 2.6rem 0rem 1.1rem 0rem;
@@ -491,7 +614,9 @@ h2 {
 .updates p {
 	font-family: raleway;
 	font-weight: lighter;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	text-align: center;
 	line-height: 2rem;
 	font-size: 0.9rem;
@@ -508,9 +633,16 @@ footer {
 	height: auto;
 	width: 100%;
 	margin: 4px 0px 0px 0px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .contact {
@@ -519,9 +651,16 @@ footer {
 	padding: 0.5rem 0rem 0rem 1rem;
 	font-weight: lighter;
 	font-size: 0.8rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	text-align: center;
 }
 
@@ -546,13 +685,20 @@ footer {
 
 .socialmedia {
 	color: white;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
 	font-family: Raleway;
 	font-weight: lighter;
 	padding: 0.55rem 0rem 0.6rem 0.5rem;
 	font-size: 0.9rem;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	line-height: 2rem;
 	text-align: center;
 }
@@ -604,7 +750,9 @@ footer {
 	border: 0px;
 	position:absolute;
 	top:50%;
-	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	    -ms-transform:translateY(-50%);
+	        transform:translateY(-50%);
 	right:0;
 }
 
@@ -626,17 +774,27 @@ footer {
 /* Breakpoints */
 
 @media all and (min-width: 600px) {
+  
 body {
 	font-size: 16px;
 	}
 
 
 header {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	text-align: center;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	border: 1.1rem;
 	padding: 0.5rem;
 	position: fixed;
@@ -644,28 +802,39 @@ header {
 	left: 0;
 	width: 100%;
 	z-index: 10;
-	flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
 	}
 
 .header-wrap {
-	flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
 }
 
 .menu {
 	font-size: 0.9rem;
 	text-align: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 	width: 22rem;
 	font-weight: bold;
 	text-decoration: none;
-	order: 0;
+	-webkit-box-ordinal-group: 1;
+	    -ms-flex-order: 0;
+	        order: 0;
 }
 
 .cart-image {
 	padding: 0rem 0rem 0rem 0.3rem;
-	align-self: flex-end;
+	-ms-flex-item-align: end;
+	    align-self: flex-end;
 	text-align: right;
 	width: 15%;
 }
@@ -681,11 +850,16 @@ header {
 .counter {
 	width: 0.5rem;
 	height: 1rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-self: flex-end;
+	-ms-flex-item-align: end;
+	    align-self: flex-end;
 	position: absolute;
 	top:25%;
-	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	    -ms-transform:translateY(-50%);
+	        transform:translateY(-50%);
 	right:0;
 	padding-right: 0.3rem;
 	padding-left: 0.3rem;
@@ -702,9 +876,15 @@ header {
 }
 
 .menu-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	order: 2;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-ordinal-group: 3;
+	    -ms-flex-order: 2;
+	        order: 2;
 	border-top: none;
 }
 
@@ -720,7 +900,8 @@ header {
 .category-wide {
 	grid-column-end: span 4;
 	width: 100%;
-	flex-basis: 100%;
+	-ms-flex-preferred-size: 100%;
+	    flex-basis: 100%;
 }
 	
 .updates h2 {
@@ -740,6 +921,9 @@ header {
 }
 
 .category:nth-child(n) {
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/mens-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg) center;
 	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg) center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -748,6 +932,9 @@ header {
 }
 
 .category:nth-child(2n) {
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/trends-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg) center;
 	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg) center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -756,6 +943,9 @@ header {
 }
 
 .category:nth-child(3n) {
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/glasses-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg) center;
 	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg) center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -764,6 +954,9 @@ header {
 }
 
 .category:nth-child(4n) {
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/sale-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg) center;
 	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg) center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -772,6 +965,9 @@ header {
 }
 
 .category:nth-child(5n) {
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/bags-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg) center;
 	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg) center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -780,6 +976,9 @@ header {
 }
 
 .category:nth-child(6n) {
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/womens-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg) center;
 	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg) center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -791,15 +990,21 @@ footer {
 	height: 275px;
 	width: 100%;
 	margin: 4px 0px 0px 0px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
 }	
 
 .contact {
 	padding: 0.5rem 0rem 0rem 1rem;
 	font-size: 0.8rem;
 	text-align: left;
-	align-content: center;
+	-ms-flex-line-pack: center;
+	    align-content: center;
 }
 
 .socialmedia {
@@ -818,10 +1023,11 @@ footer {
 .carousel-cell {
 	width: 50%;
 }
+}
 
 @media all and (min-width: 1240px) {
 
 .carousel-cell {
 	width: 25%;
 }
-
+}
