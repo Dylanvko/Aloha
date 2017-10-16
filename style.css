@@ -458,6 +458,7 @@ h2 {
 	justify-content: center;
 	text-align: center;
 	padding: 0.5rem;
+	width: 100%;
 	}
 
 .carousel-cell p {
@@ -812,12 +813,15 @@ footer {
 .socialmedia span {
 	padding: 0rem 0rem 0rem 0.5rem;
 	display: inline-block;
-
 }
 
-/* @media all and (min-width: 1240px) {
-		
-		.wrapper {
-				width: 720px;
-		}
-		  */
+.carousel-cell {
+	width: 50%;
+}
+
+@media all and (min-width: 1240px) {
+
+.carousel-cell {
+	width: 25%;
+}
+

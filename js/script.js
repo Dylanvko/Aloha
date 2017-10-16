@@ -23,6 +23,7 @@ $('.main-carousel').flickity({
   cellAlign: 'left',
   contain: true,
   freeScroll: true,
+  prevNextButtons: false,
 });
 
 //Smooth-Scrolling from css-tricks
