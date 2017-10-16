@@ -1,14 +1,21 @@
-$('#submit').on('click', function() {
-  var testEmail = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
-  if (testEmail.test(this.value)) alert('Thank you for subscribing!');
-    else alert('Please enter a valid email address.');
+$('#emailfill').on('submit', function(event) {
+  event.preventDefault();
+  if ( !$('#email').val() == '') { 
+    alert('Thank you for subscribing!');
+  } else {
+      alert('Please enter a valid email address.');
+    }
 });
 
-$('#button1').click( function() {
-  var counter = $('#TextBox').val();
-  counter++ ;
-  $('#TextBox').val(counter);
+$('#target').click(function() {
+  $('#output').html(function(i, val) { return val*1+1 });
 });
+
+// $('#button1').click( function() {
+//   var counter = $('#TextBox').val();
+//   counter++ ;
+//   $('#TextBox').val(counter);
+// });
 
 $('.main-carousel').flickity({
   // options
