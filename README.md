@@ -1,6 +1,6 @@
 <h1>Aloha</h2>
 
-<img src="images/aloha-logo.svg" alt="Aloha Apparel Co. logo">
+<img src="images/AlohaScreenshot.png" alt="Aloha homepage">
 
 <p>Aloha is a project for Red Academy. It is also my first website. </p>
 
