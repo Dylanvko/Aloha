@@ -262,6 +262,27 @@ header img {
 	width: 50%;
 }
 
+.counter {
+	width: 0.5rem;
+	height: 1rem;
+	display: flex;
+	align-self: flex-end;
+	position: absolute;
+	top:20%;
+	transform:translateY(-50%);
+	right:0;
+	padding-right: 0.3rem;
+	padding-left: 0.3rem;
+	background-color: #e2574c;
+	border: none;
+	margin-right: 20px;
+	text-align: center;
+	border-radius: 3rem;
+	color: white;
+	justify-content: center;
+	
+}
+
 .styles {
 	font-size: 1.95rem;
 	display: inline-block;
@@ -272,6 +293,10 @@ header img {
 	margin: 0.55rem;
 	padding: 2.2rem 0rem 1.1rem 0rem;
 	font-family: Playfair Display;
+}
+
+.styles span {
+	padding-left: 0.8rem;
 }
 
 .bold {
@@ -431,6 +456,7 @@ h2 {
 .carousel-cell {
 	justify-content: center;
 	text-align: center;
+	padding: 0.5rem;
 	}
 
 .carousel-cell p {
@@ -646,6 +672,33 @@ header {
 	width: 15%;
 }
 
+.counterbox {
+	background:#d26053;
+}
+
+.counter {
+	width: 0.5rem;
+	height: 1rem;
+	display: flex;
+	align-self: flex-end;
+	position: absolute;
+	top:25%;
+	transform:translateY(-50%);
+	right:0;
+	padding-right: 0.3rem;
+	padding-left: 0.3rem;
+	background-color: #e2574c;
+	border: none;
+	border-radius: 50;
+	margin-right: 20px;
+	font-size: 0.6rem;
+	text-align: center;
+	line-height: 0.8rem;
+	border-radius: 3rem;
+	color: white;
+
+}
+
 .menu-box {
 	display: flex;
 	justify-content: center;
@@ -678,6 +731,10 @@ header {
 
 .styles {
 	font-size: 2.2rem;
+}
+
+.styles span {
+	padding-left: 1rem;
 }
 
 .category:nth-child(n) {

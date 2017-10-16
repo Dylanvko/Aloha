@@ -23,6 +23,9 @@
         </div>
         <div class="cart-image">
           <img src="images/cart-icon.svg" alt="Shopping cart"></div>
+          <div class="counterbox">
+            <input type="text" name="TextBox" id="TextBox" value="0" class="counter"/>
+          </div>
       </div>  
     </header>
     <div class="hero">
@@ -31,7 +34,7 @@
     </div>
     <div id="about"></div>
     <div class="styles">
-      <h2><span class="italic">Hand-Crafted</span>&#160<span class="bold">Styles</span>
+      <h2><span class="italic">Hand-Crafted</span><span class="bold">Styles</span>
       </h2>
     </div>
     <div id="shop"></div>
@@ -129,7 +132,7 @@
       </h2>
       <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
       <div class="submitform">
-        <form class="subscribe">
+        <form class="subscribe" id="emailfill">
           <input class="subscribe-email" type="email" id="email" name="email" placeholder="Your Email">
           <input class="submit-button" type="submit" id="submit" name="submit" value="Subscribe">
         </form>

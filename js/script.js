@@ -1,8 +1,21 @@
+$('#submit').on('click', function() {
+  var testEmail = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
+  if (testEmail.test(this.value)) alert('Thank you for subscribing!');
+    else alert('Please enter a valid email address.');
+});
+
+$('#button1').click( function() {
+  var counter = $('#TextBox').val();
+  counter++ ;
+  $('#TextBox').val(counter);
+});
+
 $('.main-carousel').flickity({
   // options
   wrapAround: true,
   cellAlign: 'left',
-  contain: true
+  contain: true,
+  freeScroll: true,
 });
 
 //Smooth-Scrolling from css-tricks
