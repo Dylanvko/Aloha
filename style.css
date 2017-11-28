@@ -1014,7 +1014,7 @@ footer {
 		flex-direction: row;
 	}
 	.contact {
-		padding: 0.5rem 0rem 0rem 1rem;
+		padding: 0.5rem 0rem 0rem 2rem;
 		font-size: 0.8rem;
 		text-align: left;
 		-ms-flex-line-pack: center;
