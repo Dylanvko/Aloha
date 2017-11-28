@@ -1,12 +1,19 @@
-<h1>Aloha</h2>
+#Aloha
+
+##Created by Dylan Kocsis
 
 <img src="images/AlohaScreenshot.png" alt="Aloha homepage">
 
-<p>Aloha is a project for Red Academy. It is also my first website. </p>
+Aloha is a project for Red Academy. It is also my first website.
 
-<h3>This project uses</h3>
+###This project uses
 <ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
   <li>JQuery</li>
+</ul>
+
+###Learning Outcomes
+
+This project mainly focused on experience with HTML and CSS elements.

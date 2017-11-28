@@ -1,18 +1,86 @@
 /* Reset Begins */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -20,40 +88,61 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 /* Reset Ends */
+
 
 /* Fonts Begin */
 
 @font-face {
 	font-family: 'Raleway';
 	src: url('fonts/Raleway-MediumItalic.eot');
-	src: url('fonts/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Raleway-MediumItalic.woff2') format('woff2'),
-		url('fonts/Raleway-MediumItalic.ttf') format('truetype'),
-		url('fonts/Raleway-MediumItalic.svg#Raleway-MediumItalic') format('svg');
+	src: url('fonts/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'), url('fonts/Raleway-MediumItalic.woff2') format('woff2'), url('fonts/Raleway-MediumItalic.ttf') format('truetype'), url('fonts/Raleway-MediumItalic.svg#Raleway-MediumItalic') format('svg');
 	font-weight: 500;
 	font-style: italic;
 }
@@ -61,10 +150,7 @@ table {
 @font-face {
 	font-family: 'Raleway';
 	src: url('fonts/Raleway-Medium.eot');
-	src: url('fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Raleway-Medium.woff2') format('woff2'),
-		url('fonts/Raleway-Medium.ttf') format('truetype'),
-		url('fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
+	src: url('fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/Raleway-Medium.woff2') format('woff2'), url('fonts/Raleway-Medium.ttf') format('truetype'), url('fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
 	font-weight: 500;
 	font-style: normal;
 }
@@ -72,10 +158,7 @@ table {
 @font-face {
 	font-family: 'Raleway';
 	src: url('fonts/Raleway-Light.eot');
-	src: url('fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Raleway-Light.woff2') format('woff2'),
-		url('fonts/Raleway-Light.ttf') format('truetype'),
-		url('fonts/Raleway-Light.svg#Raleway-Light') format('svg');
+	src: url('fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'), url('fonts/Raleway-Light.woff2') format('woff2'), url('fonts/Raleway-Light.ttf') format('truetype'), url('fonts/Raleway-Light.svg#Raleway-Light') format('svg');
 	font-weight: 300;
 	font-style: normal;
 }
@@ -83,10 +166,7 @@ table {
 @font-face {
 	font-family: 'Raleway';
 	src: url('fonts/Raleway-LightItalic.eot');
-	src: url('fonts/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Raleway-LightItalic.woff2') format('woff2'),
-		url('fonts/Raleway-LightItalic.ttf') format('truetype'),
-		url('fonts/Raleway-LightItalic.svg#Raleway-LightItalic') format('svg');
+	src: url('fonts/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'), url('fonts/Raleway-LightItalic.woff2') format('woff2'), url('fonts/Raleway-LightItalic.ttf') format('truetype'), url('fonts/Raleway-LightItalic.svg#Raleway-LightItalic') format('svg');
 	font-weight: 300;
 	font-style: italic;
 }
@@ -94,10 +174,7 @@ table {
 @font-face {
 	font-family: 'Playfair Display';
 	src: url('fonts/PlayfairDisplay-BoldItalic.eot');
-	src: url('fonts/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
-		url('fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
-		url('fonts/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic') format('svg');
+	src: url('fonts/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'), url('fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'), url('fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype'), url('fonts/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic') format('svg');
 	font-weight: bold;
 	font-style: italic;
 }
@@ -105,10 +182,7 @@ table {
 @font-face {
 	font-family: 'Playfair Display';
 	src: url('fonts/PlayfairDisplay-Bold.eot');
-	src: url('fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
-		url('fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
-		url('fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+	src: url('fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/PlayfairDisplay-Bold.woff2') format('woff2'), url('fonts/PlayfairDisplay-Bold.ttf') format('truetype'), url('fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
 	font-weight: bold;
 	font-style: normal;
 }
@@ -116,10 +190,7 @@ table {
 @font-face {
 	font-family: 'Playfair Display';
 	src: url('fonts/PlayfairDisplay-Regular.eot');
-	src: url('fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
-		url('fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
-		url('fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
-		url('fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+	src: url('fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/PlayfairDisplay-Regular.woff2') format('woff2'), url('fonts/PlayfairDisplay-Regular.ttf') format('truetype'), url('fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -127,13 +198,11 @@ table {
 @font-face {
 	font-family: 'Playfair Display';
 	src: url('fonts/PlayfairDisplay-Italic.eot');
-	src: url('fonts/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
-		url('fonts/PlayfairDisplay-Italic.ttf') format('truetype'),
-		url('fonts/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
+	src: url('fonts/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'), url('fonts/PlayfairDisplay-Italic.woff2') format('woff2'), url('fonts/PlayfairDisplay-Italic.ttf') format('truetype'), url('fonts/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
 	font-weight: normal;
 	font-style: italic;
 }
+
 
 /* Fonts End */
 
@@ -143,86 +212,57 @@ body {
 }
 
 .space-right {
-	margin-right:0.5rem;
+	margin-right: 0.5rem;
 }
 
 .hero {
-  padding: 13rem 0rem 13rem 0rem;
-  background:
-    -webkit-gradient(
-      linear,
-      left top, left bottom,
-      from(rgba(0,0,0,0.25)),
-      to(rgba(0,0,0,0.25))),
-    url(images/banner-girl.png) center bottom no-repeat,
-		url(images/flower-bkgd.jpg) center;
-  background:
-    -webkit-linear-gradient(
-      rgba(0,0,0,0.25),
-      rgba(0,0,0,0.25)),
-    url(images/banner-girl.png) center bottom no-repeat,
-		url(images/flower-bkgd.jpg) center;
-  background:
-    -o-linear-gradient(
-      rgba(0,0,0,0.25),
-      rgba(0,0,0,0.25)),
-    url(images/banner-girl.png) center bottom no-repeat,
-		url(images/flower-bkgd.jpg) center;
-  background:
-    linear-gradient(
-      rgba(0,0,0,0.25),
-      rgba(0,0,0,0.25)),
-    url(images/banner-girl.png) center bottom no-repeat,
-		url(images/flower-bkgd.jpg) center;
-	background-size: cover, contain;
-	background-position: center, center 8.9rem;
-	font-size: 2.78rem;
-	height: 10rem;
 	width: 100%;
+	height: 45rem;
+	background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(images/banner-girl.png) center bottom no-repeat, url(images/flower-bkgd.jpg) center;
+	background-size: contain, contain;
+	background-position: center, center 8rem;
+	font-size: 2.78rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .collection {
-  font-size: 1.1rem;
-  font-family: raleway;
-  text-align: center;
-  margin: 1px auto;
-  padding: 5rem 0rem 0rem;
-  color: white;
+	font-size: 1.1rem;
+	font-family: raleway;
+	text-align: center;
+	margin: 1rem auto;
+	padding: 5rem 0rem 0rem;
+	color: white;
 	text-transform: uppercase;
 	text-shadow: 2px 2px 2px #242424;
-  
 }
 
 .season {
-  font-size: 2.6rem;
-  font-family: Playfair Display;
+	font-size: 2.6rem;
+	font-family: Playfair Display;
 	text-align: center;
 	text-shadow: 2px 2px 2px #242424;
-  margin: 0 auto;
-  padding: 0.55rem;
+	margin: 0 auto;
+	padding: 0.55rem;
 	color: white
-
 }
 
 .menu {
-  font-family: raleway;
-  text-transform: uppercase;
+	font-family: raleway;
+	text-transform: uppercase;
 	font-size: 0.9rem;
 	font-weight: bold;
+	display: flex;
+	justify-content: center;
 }
 
 .menu-box {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
 	-webkit-box-ordinal-group: 4;
-	    -ms-flex-order: 3;
-	        order: 3;
+	-ms-flex-order: 3;
+	order: 3;
 	width: 90%;
-	padding-left:1rem;
+	padding-left: 1rem;
 	padding-top: 1rem;
 	padding-bottom: 0.5rem;
 	border-top: #D7d7d7 solid 1px;
@@ -239,22 +279,22 @@ body {
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 	text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 	border: 1.1rem;
 	padding: 0.5rem;
 	background: white;
@@ -273,42 +313,39 @@ header {
 	display: flex;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	flex-wrap: wrap;
 	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 	width: 100%;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 header img {
-  height: 3.25rem;
+	height: 3.25rem;
 	margin: 0.3rem;
 	padding: 0rem 0.5rem 0.3rem 0rem;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
 }
 
 .cart-image {
 	-ms-flex-item-align: end;
-	    align-self: flex-end;
+	align-self: flex-end;
 	text-align: right;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: reverse;
-	    -ms-flex-direction: row-reverse;
-	        flex-direction: row-reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
 	-webkit-box-ordinal-group: 3;
-	    -ms-flex-order: 2;
-	        order: 2;
+	-ms-flex-order: 2;
+	order: 2;
 	width: 50%;
 }
 
@@ -317,8 +354,8 @@ header img {
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-ordinal-group: 2;
-	    -ms-flex-order: 1;
-	        order: 1;
+	-ms-flex-order: 1;
+	order: 1;
 	width: 50%;
 }
 
@@ -329,13 +366,13 @@ header img {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-item-align: end;
-	    align-self: flex-end;
+	align-self: flex-end;
 	position: absolute;
-	top:17%;
-	-webkit-transform:translateY(-50%);
-	    -ms-transform:translateY(-50%);
-	        transform:translateY(-50%);
-	right:0;
+	top: 17%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	right: 0;
 	padding-right: 0.3rem;
 	padding-left: 0.3rem;
 	background-color: #e2574c;
@@ -345,10 +382,10 @@ header img {
 	border-radius: 3rem;
 	color: white;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	font-size: 0.6rem;
-	
+	display: none;
 }
 
 .styles {
@@ -359,19 +396,15 @@ header img {
 	display: flex;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	font-weight: lighter;
 	margin: 0.55rem;
 	padding: 2.2rem 0rem 1.1rem 0rem;
 	font-family: Playfair Display;
-}
-
-.styles span {
-	padding-left: 0.8rem;
 }
 
 .bold {
@@ -383,58 +416,55 @@ header img {
 }
 
 h2 {
-  font-weight: normal;
+	font-weight: normal;
 }
 
 .blurb {
 	font-family: raleway;
 	font-weight: lighter;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	text-align: center;
 	line-height: 2rem;
 	font-size: 1rem;
 	-ms-flex-line-pack: center;
-	    align-content: center;
-
+	align-content: center;
 }
 
 .blurb p {
 	padding: 10px 0px 50px 0px;
 	-ms-flex-line-pack: center;
-	    align-content: center;
+	align-content: center;
 	font-weight: lighter;
 	max-width: 50%;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	text-align: center;
 	max-width: 40rem;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
-.container {
+.grid-container {
 	background-color: white;
 	display: grid;
 	grid-template-columns: auto auto;
 	grid-gap: 5px;
 	grid-auto-rows: minmax(230px, auto);
-	
 }
 
-.container a {
+.grid-container a {
 	color: white;
 	line-height: auto;
-	text-decoration: none; 
+	text-decoration: none;
 	position: relative;
-	top: 45%; 
+	top: 45%;
 }
 
-.container a:hover {
-  color: #f4ebca;
+.grid-container a:hover {
+	color: #f4ebca;
 }
 
 .category {
@@ -445,12 +475,11 @@ h2 {
 	text-shadow: 1px 1px 6px #242424;
 	text-align: center;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	/* align-content: stretch; */
+	-ms-flex-pack: center;
+	justify-content: center;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	grid-column-end: span 2;
 }
 
@@ -458,14 +487,14 @@ h2 {
 	grid-column-end: span 4;
 	width: 100%;
 	-ms-flex-preferred-size: 100%;
-	    flex-basis: 100%;
+	flex-basis: 100%;
 }
 
 .category:nth-child(n) {
-	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/mens-category.jpg) center;
-	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg) center;
-	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg) center;
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg) center;
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(images/mens-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/mens-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/mens-category.jpg) center;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/mens-category.jpg) center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	grid-column: 1/3;
@@ -473,10 +502,10 @@ h2 {
 }
 
 .category:nth-child(2n) {
-	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/trends-category.jpg) center;
-	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg) center;
-	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg) center;
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg) center;
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(images/trends-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/trends-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/trends-category.jpg) center;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/trends-category.jpg) center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	grid-column: 1;
@@ -484,10 +513,10 @@ h2 {
 }
 
 .category:nth-child(3n) {
-	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/glasses-category.jpg) center;
-	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg) center;
-	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg) center;
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg) center;
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(images/glasses-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/glasses-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/glasses-category.jpg) center;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/glasses-category.jpg) center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	grid-column: 2;
@@ -495,10 +524,10 @@ h2 {
 }
 
 .category:nth-child(4n) {
-	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/sale-category.jpg) center;
-	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg) center;
-	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg) center;
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg) center;
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(images/sale-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/sale-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/sale-category.jpg) center;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/sale-category.jpg) center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	grid-column: 1;
@@ -506,10 +535,10 @@ h2 {
 }
 
 .category:nth-child(5n) {
-	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/bags-category.jpg) center;
-	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg) center;
-	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg) center;
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg) center;
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(images/bags-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bags-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bags-category.jpg) center;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bags-category.jpg) center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	grid-column: 2;
@@ -517,31 +546,30 @@ h2 {
 }
 
 .category:nth-child(6n) {
-	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/womens-category.jpg) center;
-	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg) center;
-	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg) center;
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg) center;
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(images/womens-category.jpg) center;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/womens-category.jpg) center;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/womens-category.jpg) center;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/womens-category.jpg) center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	grid-column: 1/3;
 	grid-row: 4;
 }
- 
+
 .main-carousel {
- -webkit-box-pack: center;
-     -ms-flex-pack: center;
-         justify-content: center;
- -webkit-box-align: center;
-     -ms-flex-align: center;
-         align-items: center;
- line-height: 1.2rem;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	line-height: 1.2rem;
 }
 
 .main-carousel img {
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 
 .main-carousel p {
@@ -554,35 +582,35 @@ h2 {
 .garment {
 	font-size: 0.8rem;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	padding: 1rem;
 }
 
 .main-carousel h3 {
 	font-family: Playfair Display;
-	color:#e2574c;
+	color: #e2574c;
 	font-size: 1.3rem;
-	}
+}
 
 .carousel-cell {
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	text-align: center;
 	padding: 0.5rem;
 	width: 100%;
-	}
+}
 
 .carousel-cell p {
 	font-size: 0.7rem;
 }
 
 .updates {
-	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.3)) ), url(images/waveback.jpg) left bottom;
-	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(images/waveback.jpg) left bottom;
-	background: -o-linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(images/waveback.jpg) left bottom;
-	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(images/waveback.jpg) left bottom;
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.3))), url(images/waveback.jpg) left bottom;
+	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(images/waveback.jpg) left bottom;
+	background: -o-linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(images/waveback.jpg) left bottom;
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(images/waveback.jpg) left bottom;
 	background-repeat: no-repeat;
 	height: 300px;
 	width: auto;
@@ -598,11 +626,11 @@ h2 {
 	display: flex;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	font-weight: lighter;
 	margin: 0.55rem;
 	padding: 2.6rem 0rem 1.1rem 0rem;
@@ -615,8 +643,8 @@ h2 {
 	font-family: raleway;
 	font-weight: lighter;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	text-align: center;
 	line-height: 2rem;
 	font-size: 0.9rem;
@@ -638,11 +666,11 @@ footer {
 	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 }
 
 .contact {
@@ -656,11 +684,11 @@ footer {
 	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	text-align: center;
 }
 
@@ -690,15 +718,15 @@ footer {
 	display: flex;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
 	font-family: Raleway;
 	font-weight: lighter;
 	padding: 0.55rem 0rem 0.6rem 0.5rem;
 	font-size: 0.9rem;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	line-height: 2rem;
 	text-align: center;
 }
@@ -714,25 +742,23 @@ footer {
 	display: none;
 }
 
+
 /* Email subscription container */
+
 .subscribe {
-	/* max-width: 30%; */
 	margin-left: auto;
 	margin-right: auto;
-	/* padding: 1.3rem 0rem 0rem 0rem; */
-	position:relative;
+	position: relative;
 	max-width: 300px;
 }
 
 .subscribe-email {
 	font-family: Raleway;
 	line-height: 2rem;
-	/* padding: 0rem 11rem 0rem 0.5rem; */
 	font-size: 0.7rem;
 	font-weight: lighter;
 	color: #969696;
 	border-radius: 3rem;
-	/* justify-content: center; */
 	border: 0px;
 	padding-left: 5%;
 	width: 95%;
@@ -745,17 +771,15 @@ footer {
 	line-height: 1.65rem;
 	font-size: 0.8rem;
 	font-family: Raleway;
-	/* padding: 0rem 0.8rem 0rem 0.8rem; */
 	font-weight: lighter;
 	border: 0px;
-	position:absolute;
-	top:50%;
-	-webkit-transform:translateY(-50%);
-	    -ms-transform:translateY(-50%);
-	        transform:translateY(-50%);
-	right:0;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	right: 0;
 }
-
 
 .add-to-cart {
 	border-radius: 16px;
@@ -771,263 +795,234 @@ footer {
 	border: 0px;
 }
 
+
 /* Breakpoints */
 
 @media all and (min-width: 600px) {
-  
-body {
-	font-size: 16px;
+	body {
+		font-size: 16px;
+	}
+	header {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		text-align: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		border: 1.1rem;
+		padding: 0.5rem;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 10;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+	}
+	.header-wrap {
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+	}
+	.menu {
+		font-size: 0.9rem;
+		text-align: center;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+		width: 22rem;
+		font-weight: bold;
+		text-decoration: none;
+		-webkit-box-ordinal-group: 1;
+		-ms-flex-order: 0;
+		order: 0;
+	}
+	.cart-image {
+		padding: 0.3rem 1.5rem 0rem 0.3rem;
+		-ms-flex-item-align: end;
+		align-self: flex-end;
+		text-align: right;
+		width: 15%;
+	}
+	.aloha-image {
+		width: 15%;
+		padding-left: 1.5rem;
+	}
+	.counterbox {
+		background: #d26053;
+	}
+	.counter {
+		width: 0.5rem;
+		height: 1rem;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-item-align: end;
+		align-self: flex-end;
+		position: absolute;
+		top: 25%;
+		-webkit-transform: translateY(-39%);
+		-ms-transform: translateY(-39%);
+		transform: translateY(-39%);
+		right: 0;
+		padding-right: 0.3rem;
+		padding-left: 0.3rem;
+		background-color: #e2574c;
+		border: none;
+		border-radius: 50;
+		margin-right: 45px;
+		font-size: 0.6rem;
+		text-align: center;
+		line-height: 0.8rem;
+		border-radius: 3rem;
+		color: white;
+		display: none;
+	}
+	.menu-box {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-ordinal-group: 3;
+		-ms-flex-order: 2;
+		order: 2;
+		border-top: none;
+	}
+	.grid-container {
+		grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
+		grid-auto-rows: minmax(20vw, auto);
+	}
+	.category {
+		grid-column-end: span 1;
+	}
+	.category-wide {
+		grid-column-end: span 4;
+		width: 100%;
+		-ms-flex-preferred-size: 100%;
+		flex-basis: 100%;
+	}
+	.updates h2 {
+		font-size: 2.2rem;
+	}
+	.updates p {
+		font-size: 1rem;
+	}
+	.styles {
+		font-size: 2.2rem;
 	}
 
-
-header {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
-	text-align: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	border: 1.1rem;
-	padding: 0.5rem;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 10;
-	-ms-flex-wrap: nowrap;
-	    flex-wrap: nowrap;
+	.category:nth-child(n) {
+		background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(images/mens-category.jpg) center;
+		background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/mens-category.jpg) center;
+		background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/mens-category.jpg) center;
+		background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/mens-category.jpg) center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		grid-column: 1/3;
+		grid-row: 1;
 	}
-
-.header-wrap {
-	-ms-flex-wrap: nowrap;
-	    flex-wrap: nowrap;
-}
-
-.menu {
-	font-size: 0.9rem;
-	text-align: center;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
-	width: 22rem;
-	font-weight: bold;
-	text-decoration: none;
-	-webkit-box-ordinal-group: 1;
-	    -ms-flex-order: 0;
-	        order: 0;
-}
-
-.cart-image {
-	padding: 0rem 0rem 0rem 0.3rem;
-	-ms-flex-item-align: end;
-	    align-self: flex-end;
-	text-align: right;
-	width: 15%;
-}
-
-.aloha-image {
-	width: 15%;
-}
-
-.counterbox {
-	background:#d26053;
-}
-
-.counter {
-	width: 0.5rem;
-	height: 1rem;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-item-align: end;
-	    align-self: flex-end;
-	position: absolute;
-	top:25%;
-	-webkit-transform:translateY(-50%);
-	    -ms-transform:translateY(-50%);
-	        transform:translateY(-50%);
-	right:0;
-	padding-right: 0.3rem;
-	padding-left: 0.3rem;
-	background-color: #e2574c;
-	border: none;
-	border-radius: 50;
-	margin-right: 20px;
-	font-size: 0.6rem;
-	text-align: center;
-	line-height: 0.8rem;
-	border-radius: 3rem;
-	color: white;
-
-}
-
-.menu-box {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-ordinal-group: 3;
-	    -ms-flex-order: 2;
-	        order: 2;
-	border-top: none;
-}
-
-.container {
-	grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
-  grid-auto-rows: minmax(20vw, auto);
-}
-	
-.category {
-   grid-column-end: span 1;
-}
-	
-.category-wide {
-	grid-column-end: span 4;
-	width: 100%;
-	-ms-flex-preferred-size: 100%;
-	    flex-basis: 100%;
-}
-	
-.updates h2 {
-	font-size: 2.2rem;
-}
-
-.updates p {
-	font-size: 1rem;
-}
-
-.styles {
-	font-size: 2.2rem;
-}
-
-.styles span {
-	padding-left: 1rem;
-}
-
-.category:nth-child(n) {
-	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/mens-category.jpg) center;
-	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg) center;
-	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg) center;
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/mens-category.jpg) center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	grid-column: 1/3;
-	grid-row: 1;
-}
-
-.category:nth-child(2n) {
-	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/trends-category.jpg) center;
-	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg) center;
-	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg) center;
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/trends-category.jpg) center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	grid-column: 3;
-	grid-row: 1;
-}
-
-.category:nth-child(3n) {
-	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/glasses-category.jpg) center;
-	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg) center;
-	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg) center;
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/glasses-category.jpg) center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	grid-column: 4;
-	grid-row: 1;
-}
-
-.category:nth-child(4n) {
-	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/sale-category.jpg) center;
-	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg) center;
-	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg) center;
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/sale-category.jpg) center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	grid-column: 1;
-	grid-row: 2;
-}
-
-.category:nth-child(5n) {
-	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/bags-category.jpg) center;
-	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg) center;
-	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg) center;
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/bags-category.jpg) center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	grid-column: 2;
-	grid-row: 2;
-}
-
-.category:nth-child(6n) {
-	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)) ), url(images/womens-category.jpg) center;
-	background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg) center;
-	background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg) center;
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/womens-category.jpg) center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	grid-column: 3/5;
-	grid-row: 2;
-}
-
-footer {
-	height: 275px;
-	width: 100%;
-	margin: 4px 0px 0px 0px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
-}	
-
-.contact {
-	padding: 0.5rem 0rem 0rem 1rem;
-	font-size: 0.8rem;
-	text-align: left;
-	-ms-flex-line-pack: center;
-	    align-content: center;
-}
-
-.socialmedia {
-	padding: 3.5rem 2rem 0.6rem 0.5rem;
-	font-size: 0.9rem;
-	line-height: 2rem;
-	text-align: left;
-	display: inline-block;
-}
-
-.socialmedia span {
-	padding: 0rem 0rem 0rem 0.5rem;
-	display: inline-block;
-}
-
-.carousel-cell {
-	width: 50%;
-}
+	.category:nth-child(2n) {
+		background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(images/trends-category.jpg) center;
+		background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/trends-category.jpg) center;
+		background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/trends-category.jpg) center;
+		background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/trends-category.jpg) center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		grid-column: 3;
+		grid-row: 1;
+	}
+	.category:nth-child(3n) {
+		background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(images/glasses-category.jpg) center;
+		background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/glasses-category.jpg) center;
+		background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/glasses-category.jpg) center;
+		background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/glasses-category.jpg) center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		grid-column: 4;
+		grid-row: 1;
+	}
+	.category:nth-child(4n) {
+		background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(images/sale-category.jpg) center;
+		background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/sale-category.jpg) center;
+		background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/sale-category.jpg) center;
+		background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/sale-category.jpg) center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		grid-column: 1;
+		grid-row: 2;
+	}
+	.category:nth-child(5n) {
+		background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(images/bags-category.jpg) center;
+		background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bags-category.jpg) center;
+		background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bags-category.jpg) center;
+		background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bags-category.jpg) center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		grid-column: 2;
+		grid-row: 2;
+	}
+	.category:nth-child(6n) {
+		background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(images/womens-category.jpg) center;
+		background: -webkit-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/womens-category.jpg) center;
+		background: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/womens-category.jpg) center;
+		background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/womens-category.jpg) center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		grid-column: 3/5;
+		grid-row: 2;
+	}
+	footer {
+		height: 275px;
+		width: 100%;
+		margin: 4px 0px 0px 0px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+	.contact {
+		padding: 0.5rem 0rem 0rem 1rem;
+		font-size: 0.8rem;
+		text-align: left;
+		-ms-flex-line-pack: center;
+		align-content: center;
+	}
+	.socialmedia {
+		padding: 3.5rem 2rem 0.6rem 0.5rem;
+		font-size: 0.9rem;
+		line-height: 2rem;
+		text-align: left;
+		display: inline-block;
+	}
+	.socialmedia span {
+		padding: 0rem 0rem 0rem 0.5rem;
+		display: inline-block;
+	}
+	.carousel-cell {
+		width: 50%;
+	}
 }
 
 @media all and (min-width: 1240px) {
-
-.carousel-cell {
-	width: 25%;
-}
+	.carousel-cell {
+		width: 25%;
+	}
 }
